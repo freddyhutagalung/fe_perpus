@@ -1,0 +1,25 @@
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.drop {
+  background-color: rgba(224, 0, 0, 0.83) !important;
+  font-style: initial;
+  color: beige;
+}
+
+.mhs {
+  background-color: rgb(128, 54, 54) !important;
+}
+
+nav {
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.seting {
+  background-color: lightcoral;
+  border-radius: 5px;
+  border: none;
+}
