@@ -11,6 +11,10 @@ import TableMhs from "../../pages/TableMhs";
 import DashboardBuku from "../../pages/DashboardBuku";
 import Pengarang from "../../pages/Pengarang";
 import TblPenarang from "../../pages/TablePengarang";
+import Penerbit from "../../pages/Penerbit";
+import TablePenerbit from "../../pages/TablePenerbit";
+
+
 
 const Router = () => {
   return (
@@ -27,6 +31,8 @@ const Router = () => {
           <Route path="/dashboardBuku" element={<DashboardBuku />} />
           <Route path="/Pengarang" element={<Pengarang />} />
           <Route path="/MyPengarang" element={<TblPenarang/>} />
+          <Route path="/Penerbit" element= {<Penerbit/>}/>
+          <Route path="/MyPenerbit" element= {<TablePenerbit/>}/>
           <Route path="/product/:id" element={<Detail />} />
           <Route path="*" element={<Page404 />} />
         </Routes>

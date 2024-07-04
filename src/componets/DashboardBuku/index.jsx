@@ -41,9 +41,11 @@ const DashboardBook = () => {
             <div className={`card-body ${Style.content} content `}>
               <h5 className="card-title">PENERBIT</h5>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <Link to="/Penerbit">
               <a href="#" className="btn btn-primary">
                 Open
               </a>
+              </Link>
             </div>
           </div>
           <div className={`card m-md-3 ${Style.cardOne} cardOne`}>
